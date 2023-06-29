@@ -37,3 +37,18 @@ def add(num1, num2):
     0
     """
     return num1 + num2
+
+def square(n):
+    '''Takes in a number n, returns the square of n'''
+    return n**2
+
+print(square.__doc__) # it is used to print the description of function encloed in triple single quotation mark.
+
+
+
+
+
+
+
+
+
