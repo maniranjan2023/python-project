@@ -70,6 +70,27 @@ while True:
   if not number > 0:
     break
 
+#range(5): it means start =0, condition<5, increment=1 so output is 0,1,2,3,4
+#range(1,6): it means start=1, condition <6, increment=1 so output is 1,2,3,4,5
+#range(1,6,2):it means start =1,condition<6, increment=2, so output is 1, 3 ,5
+
+for n in range (5):
+    print(n)
+
+for m in range(5):
+    print("welcome")
+
+for p in range(1,6):
+    print(p)
+
+for r in range(1,6,2): #forward loop, range(start,end,jump)
+    print(r)
+
+for s in range(10,0,-1): #reverse loop , range(start,end, jump)
+    print(s)
+
+
+
 
 
 
