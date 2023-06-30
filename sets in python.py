@@ -34,6 +34,9 @@ s={10,20,30,40}
 s.update(l) # this means update l inside  s
 print(s)
 
+info = {"Carla", 19, False, 5.9, 19}
+print(info)
+
 
 
 
